@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FCA6C9399CEC862171698C20FD7F66AD429B97E9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E0B059E545F4F98AD99696876AB7EAC79DA2A636" : 0,
+    "FCA6C9399CEC862171698C20FD7F66AD429B97E9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ED73C2CD-1965-4553-AB95-39F5F17C3096",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E0B059E545F4F98AD99696876AB7EAC79DA2A636" : "",
+    "FCA6C9399CEC862171698C20FD7F66AD429B97E9" : "TimeAccumulation\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TimeAccumulation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TimeAccumulation.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qscxwei\/BarGraphView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0B059E545F4F98AD99696876AB7EAC79DA2A636"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qscxwei\/TimeAccumulation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FCA6C9399CEC862171698C20FD7F66AD429B97E9"
+    }
+  ]
+}
