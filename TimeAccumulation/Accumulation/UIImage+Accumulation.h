@@ -10,4 +10,11 @@
 
 @interface UIImage (Accumulation)
 
+// 转变图片到指定大小
++(UIImage*) OriginImage:(NSString *)imageName scaleToSize:(CGSize)size;
+
+// 将base字符串转UIImage
++(UIImage *)stringToImage:(NSString *)imageStr;
+
+
 @end

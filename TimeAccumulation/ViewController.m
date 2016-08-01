@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    NSString *str = [NSDate changeDateFormat:@"20160801145430" from:@"yyyyMMddHHmmss" to:@"yyyy-MM-dd HH:mm:ss"];
+//    NSLog(@"结果：%@",str);
+    
 }
 
 - (void)didReceiveMemoryWarning {

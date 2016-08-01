@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Accumulation/TimeAccumulation.h"
 
 @interface ViewController : UIViewController
 
