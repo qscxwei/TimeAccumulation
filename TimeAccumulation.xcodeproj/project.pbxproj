@@ -40,7 +40,7 @@
 		BA7EDDC71D4B61820087EB57 /* NSString+Accumulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Accumulation.m"; sourceTree = "<group>"; };
 		BA7EDDC91D4B619A0087EB57 /* UIImage+Accumulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Accumulation.h"; sourceTree = "<group>"; };
 		BA7EDDCA1D4B619A0087EB57 /* UIImage+Accumulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Accumulation.m"; sourceTree = "<group>"; };
-		BA7EDDCC1D4B62100087EB57 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		BA7EDDCC1D4B62100087EB57 /* TimeAccumulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeAccumulation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				BA7EDDC71D4B61820087EB57 /* NSString+Accumulation.m */,
 				BA7EDDC91D4B619A0087EB57 /* UIImage+Accumulation.h */,
 				BA7EDDCA1D4B619A0087EB57 /* UIImage+Accumulation.m */,
-				BA7EDDCC1D4B62100087EB57 /* common.h */,
+				BA7EDDCC1D4B62100087EB57 /* TimeAccumulation.h */,
 			);
 			path = Accumulation;
 			sourceTree = "<group>";
@@ -340,6 +340,7 @@
 				BA7EDDB61D4B5FB30087EB57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
