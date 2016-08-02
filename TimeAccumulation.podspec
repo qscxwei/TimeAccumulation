@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   s.author    = "qscxwei"
   s.platform     = :ios
   s.source       = { :git => "https://github.com/qscxwei/TimeAccumulation.git", :tag => "0.0.2" }
-  s.source_files  = "TimeAccumulation", "TimeAccumulation/TimeAccumulation/**/*.{h,m}"
-  s.exclude_files = "TimeAccumulation/Exclude"
-  s.public_header_files = "TimeAccumulation/Accumulation/TimeAccumulation.h","TimeAccumulation/Accumulation/*.h"
+  s.source_files  = "TimeAccumulation/Accumulation/*.{h,m}"
+  s.exclude_files = "TimeAccumulation/Accumulation/Exclude"
+  s.public_header_files = "TimeAccumulation/Accumulation/*.h"
   s.requires_arc = true
 
 end
