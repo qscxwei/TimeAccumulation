@@ -40,7 +40,7 @@
 		BA7EDDC71D4B61820087EB57 /* NSString+Accumulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Accumulation.m"; sourceTree = "<group>"; };
 		BA7EDDC91D4B619A0087EB57 /* UIImage+Accumulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Accumulation.h"; sourceTree = "<group>"; };
 		BA7EDDCA1D4B619A0087EB57 /* UIImage+Accumulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Accumulation.m"; sourceTree = "<group>"; };
-		BA7EDDCC1D4B62100087EB57 /* TimeAccumulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeAccumulation.h; sourceTree = "<group>"; };
+		BA7EDDCC1D4B62100087EB57 /* TimeAccumulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TimeAccumulation.h; path = Accumulation/TimeAccumulation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				BA7EDDBF1D4B611E0087EB57 /* Accumulation */,
+				BA7EDDCC1D4B62100087EB57 /* TimeAccumulation.h */,
 				BA7EDDA31D4B5FB30087EB57 /* AppDelegate.h */,
 				BA7EDDA41D4B5FB30087EB57 /* AppDelegate.m */,
 				BA7EDDA61D4B5FB30087EB57 /* ViewController.h */,
@@ -107,7 +108,6 @@
 				BA7EDDC71D4B61820087EB57 /* NSString+Accumulation.m */,
 				BA7EDDC91D4B619A0087EB57 /* UIImage+Accumulation.h */,
 				BA7EDDCA1D4B619A0087EB57 /* UIImage+Accumulation.m */,
-				BA7EDDCC1D4B62100087EB57 /* TimeAccumulation.h */,
 			);
 			path = Accumulation;
 			sourceTree = "<group>";
