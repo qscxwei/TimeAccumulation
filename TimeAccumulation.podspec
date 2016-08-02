@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "TimeAccumulation"
   s.version      = "0.0.2"
-  s.summary      = "生成年月周日等折线图和柱状图"
+  s.summary      = "时间积累：记录所有使用过的公共方法"
   s.homepage     = "https://github.com/qscxwei/TimeAccumulation"
   s.license      = "MIT"
   s.author    = "qscxwei"
