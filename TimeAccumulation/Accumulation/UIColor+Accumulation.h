@@ -20,6 +20,8 @@
 // 灰色
 +(UIColor *)COLOR_dddddd;
 +(UIColor *)COLOR_eeeeee;
++(UIColor *)COLOR_cccccc;
++(UIColor *)COLOR_f8f8f8;
 
 // 黑色
 +(UIColor *)COLOR_3f3f3f;
@@ -28,4 +30,8 @@
 // 绿色
 +(UIColor *)COLOR_1cc487;
 
+// 红色
++(UIColor *)COLOR_e16531;
+
 @end
+

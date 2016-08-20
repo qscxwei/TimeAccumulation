@@ -13,6 +13,8 @@
 // 返回字符串所占用的尺寸.
 +(CGSize)sizeWithFont:(NSString *)content font:(UIFont *)font maxSize:(CGSize)maxSize;
 
+//获取不同字体颜色的字符串
++(NSAttributedString *)differString:(NSString *)str target:(NSString *)targetStr color:(UIColor *)color font:(UIFont *)font;
 
 // 获取plist文件内容
 +(NSArray *)getContentFromPlist:(NSString *)fileName;
@@ -40,6 +42,10 @@
 
 // 重要信息进行隐藏显示
 +(NSString *)hideInfo:(NSString *)str;
+
+//生成验证码，数字、字母组成
++(NSString *)createVerificationCode:(int)length;
+
 
 
 @end

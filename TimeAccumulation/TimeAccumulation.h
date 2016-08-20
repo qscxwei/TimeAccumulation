@@ -9,9 +9,15 @@
 #ifndef common_h
 #define common_h
 
-#import "NSDate+Accumulation.h"
-#import "NSString+Accumulation.h"
-#import "UIColor+Accumulation.h"
+#import "Accumulation/NSDate+Accumulation.h"
+#import "Accumulation/NSString+Accumulation.h"
+#import "Accumulation/UIColor+Accumulation.h"
+#import "Accumulation/UIImage+Accumulation.h"
+
+#import "OtherCommon/HttpCommon.h"
+#import "OtherCommon/UIViewUtil.h"
+#import "OtherCommon/ViewCtrJump.h"
+
 
 
 static const int timeCount=60;//发送短信验证码倒计时时间

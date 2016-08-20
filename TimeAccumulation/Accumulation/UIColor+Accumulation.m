@@ -31,6 +31,13 @@
 +(UIColor *)COLOR_eeeeee{
     return [self RGB:@"#eeeeee"];
 }
++(UIColor *)COLOR_cccccc{
+    return [self RGB:@"#cccccc"];
+}
++(UIColor *)COLOR_f8f8f8{
+    return [self RGB:@"#f8f8f8"];
+}
+
 
 #pragma mark -- 黑色
 +(UIColor *)COLOR_3f3f3f{
@@ -44,6 +51,12 @@
 +(UIColor *)COLOR_1cc487{
     return [self RGB:@"#1cc487"];
 }
+
+#pragma mark -- 红色
++(UIColor *)COLOR_e16531{
+    return [self RGB:@"#e16531"];
+}
+
 
 
 +(UIColor *)RGB:(NSString *)_STR_{

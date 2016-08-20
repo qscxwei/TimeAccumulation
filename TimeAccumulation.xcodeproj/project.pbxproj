@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA537CF31D59726700F0F352 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BA537CF21D59726700F0F352 /* Podfile */; };
+		BA5909511D523AD000AFD118 /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5909501D523AD000AFD118 /* UserCenterViewController.m */; };
 		BA7EDDA21D4B5FB30087EB57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7EDDA11D4B5FB30087EB57 /* main.m */; };
 		BA7EDDA51D4B5FB30087EB57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7EDDA41D4B5FB30087EB57 /* AppDelegate.m */; };
 		BA7EDDA81D4B5FB30087EB57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7EDDA71D4B5FB30087EB57 /* ViewController.m */; };
@@ -18,9 +20,23 @@
 		BA7EDDC51D4B61630087EB57 /* NSDate+Accumulation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7EDDC41D4B61630087EB57 /* NSDate+Accumulation.m */; };
 		BA7EDDC81D4B61820087EB57 /* NSString+Accumulation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7EDDC71D4B61820087EB57 /* NSString+Accumulation.m */; };
 		BA7EDDCB1D4B619A0087EB57 /* UIImage+Accumulation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7EDDCA1D4B619A0087EB57 /* UIImage+Accumulation.m */; };
+		BAFA95FF1D689879004D01E8 /* ForgetCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95EB1D689879004D01E8 /* ForgetCodeViewController.m */; };
+		BAFA96001D689879004D01E8 /* ForgetNewPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95ED1D689879004D01E8 /* ForgetNewPwdViewController.m */; };
+		BAFA96011D689879004D01E8 /* ForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95EF1D689879004D01E8 /* ForgetPwdViewController.m */; };
+		BAFA96021D689879004D01E8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95F11D689879004D01E8 /* LoginViewController.m */; };
+		BAFA96031D689879004D01E8 /* RegisterCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95F31D689879004D01E8 /* RegisterCodeViewController.m */; };
+		BAFA96041D689879004D01E8 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95F51D689879004D01E8 /* RegisterViewController.m */; };
+		BAFA96051D689879004D01E8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95F81D689879004D01E8 /* BaseViewController.m */; };
+		BAFA96061D689879004D01E8 /* HttpCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95FA1D689879004D01E8 /* HttpCommon.m */; };
+		BAFA96071D689879004D01E8 /* UIViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95FC1D689879004D01E8 /* UIViewUtil.m */; };
+		BAFA96081D689879004D01E8 /* ViewCtrJump.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA95FE1D689879004D01E8 /* ViewCtrJump.m */; };
+		BAFA960C1D689AE7004D01E8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA960B1D689AE7004D01E8 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA537CF21D59726700F0F352 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BA59094F1D523AD000AFD118 /* UserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterViewController.h; sourceTree = "<group>"; };
+		BA5909501D523AD000AFD118 /* UserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewController.m; sourceTree = "<group>"; };
 		BA7EDD9D1D4B5FB30087EB57 /* TimeAccumulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAccumulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7EDDA11D4B5FB30087EB57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA7EDDA31D4B5FB30087EB57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,7 +56,29 @@
 		BA7EDDC71D4B61820087EB57 /* NSString+Accumulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Accumulation.m"; sourceTree = "<group>"; };
 		BA7EDDC91D4B619A0087EB57 /* UIImage+Accumulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Accumulation.h"; sourceTree = "<group>"; };
 		BA7EDDCA1D4B619A0087EB57 /* UIImage+Accumulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Accumulation.m"; sourceTree = "<group>"; };
-		BA7EDDCC1D4B62100087EB57 /* TimeAccumulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TimeAccumulation.h; path = Accumulation/TimeAccumulation.h; sourceTree = "<group>"; };
+		BAFA95EA1D689879004D01E8 /* ForgetCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetCodeViewController.h; sourceTree = "<group>"; };
+		BAFA95EB1D689879004D01E8 /* ForgetCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetCodeViewController.m; sourceTree = "<group>"; };
+		BAFA95EC1D689879004D01E8 /* ForgetNewPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetNewPwdViewController.h; sourceTree = "<group>"; };
+		BAFA95ED1D689879004D01E8 /* ForgetNewPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetNewPwdViewController.m; sourceTree = "<group>"; };
+		BAFA95EE1D689879004D01E8 /* ForgetPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdViewController.h; sourceTree = "<group>"; };
+		BAFA95EF1D689879004D01E8 /* ForgetPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdViewController.m; sourceTree = "<group>"; };
+		BAFA95F01D689879004D01E8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BAFA95F11D689879004D01E8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BAFA95F21D689879004D01E8 /* RegisterCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterCodeViewController.h; sourceTree = "<group>"; };
+		BAFA95F31D689879004D01E8 /* RegisterCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterCodeViewController.m; sourceTree = "<group>"; };
+		BAFA95F41D689879004D01E8 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		BAFA95F51D689879004D01E8 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		BAFA95F71D689879004D01E8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BAFA95F81D689879004D01E8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BAFA95F91D689879004D01E8 /* HttpCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpCommon.h; sourceTree = "<group>"; };
+		BAFA95FA1D689879004D01E8 /* HttpCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpCommon.m; sourceTree = "<group>"; };
+		BAFA95FB1D689879004D01E8 /* UIViewUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewUtil.h; sourceTree = "<group>"; };
+		BAFA95FC1D689879004D01E8 /* UIViewUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewUtil.m; sourceTree = "<group>"; };
+		BAFA95FD1D689879004D01E8 /* ViewCtrJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCtrJump.h; sourceTree = "<group>"; };
+		BAFA95FE1D689879004D01E8 /* ViewCtrJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCtrJump.m; sourceTree = "<group>"; };
+		BAFA96091D6898F0004D01E8 /* TimeAccumulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeAccumulation.h; sourceTree = "<group>"; };
+		BAFA960A1D689AE7004D01E8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BAFA960B1D689AE7004D01E8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,16 +112,21 @@
 		BA7EDD9F1D4B5FB30087EB57 /* TimeAccumulation */ = {
 			isa = PBXGroup;
 			children = (
+				BAFA96091D6898F0004D01E8 /* TimeAccumulation.h */,
+				BAFA95E91D689879004D01E8 /* LoginModule */,
+				BAFA95F61D689879004D01E8 /* OtherCommon */,
 				BA7EDDBF1D4B611E0087EB57 /* Accumulation */,
-				BA7EDDCC1D4B62100087EB57 /* TimeAccumulation.h */,
 				BA7EDDA31D4B5FB30087EB57 /* AppDelegate.h */,
 				BA7EDDA41D4B5FB30087EB57 /* AppDelegate.m */,
 				BA7EDDA61D4B5FB30087EB57 /* ViewController.h */,
 				BA7EDDA71D4B5FB30087EB57 /* ViewController.m */,
+				BA59094F1D523AD000AFD118 /* UserCenterViewController.h */,
+				BA5909501D523AD000AFD118 /* UserCenterViewController.m */,
 				BA7EDDA91D4B5FB30087EB57 /* Main.storyboard */,
 				BA7EDDAC1D4B5FB30087EB57 /* Assets.xcassets */,
 				BA7EDDAE1D4B5FB30087EB57 /* LaunchScreen.storyboard */,
 				BA7EDDB11D4B5FB30087EB57 /* Info.plist */,
+				BA537CF21D59726700F0F352 /* Podfile */,
 				BA7EDDA01D4B5FB30087EB57 /* Supporting Files */,
 			);
 			path = TimeAccumulation;
@@ -110,6 +153,42 @@
 				BA7EDDCA1D4B619A0087EB57 /* UIImage+Accumulation.m */,
 			);
 			path = Accumulation;
+			sourceTree = "<group>";
+		};
+		BAFA95E91D689879004D01E8 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				BAFA95EA1D689879004D01E8 /* ForgetCodeViewController.h */,
+				BAFA95EB1D689879004D01E8 /* ForgetCodeViewController.m */,
+				BAFA95EC1D689879004D01E8 /* ForgetNewPwdViewController.h */,
+				BAFA95ED1D689879004D01E8 /* ForgetNewPwdViewController.m */,
+				BAFA95EE1D689879004D01E8 /* ForgetPwdViewController.h */,
+				BAFA95EF1D689879004D01E8 /* ForgetPwdViewController.m */,
+				BAFA95F01D689879004D01E8 /* LoginViewController.h */,
+				BAFA95F11D689879004D01E8 /* LoginViewController.m */,
+				BAFA95F21D689879004D01E8 /* RegisterCodeViewController.h */,
+				BAFA95F31D689879004D01E8 /* RegisterCodeViewController.m */,
+				BAFA95F41D689879004D01E8 /* RegisterViewController.h */,
+				BAFA95F51D689879004D01E8 /* RegisterViewController.m */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		BAFA95F61D689879004D01E8 /* OtherCommon */ = {
+			isa = PBXGroup;
+			children = (
+				BAFA960A1D689AE7004D01E8 /* Reachability.h */,
+				BAFA960B1D689AE7004D01E8 /* Reachability.m */,
+				BAFA95F71D689879004D01E8 /* BaseViewController.h */,
+				BAFA95F81D689879004D01E8 /* BaseViewController.m */,
+				BAFA95F91D689879004D01E8 /* HttpCommon.h */,
+				BAFA95FA1D689879004D01E8 /* HttpCommon.m */,
+				BAFA95FB1D689879004D01E8 /* UIViewUtil.h */,
+				BAFA95FC1D689879004D01E8 /* UIViewUtil.m */,
+				BAFA95FD1D689879004D01E8 /* ViewCtrJump.h */,
+				BAFA95FE1D689879004D01E8 /* ViewCtrJump.m */,
+			);
+			path = OtherCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +250,7 @@
 			files = (
 				BA7EDDB01D4B5FB30087EB57 /* LaunchScreen.storyboard in Resources */,
 				BA7EDDAD1D4B5FB30087EB57 /* Assets.xcassets in Resources */,
+				BA537CF31D59726700F0F352 /* Podfile in Resources */,
 				BA7EDDAB1D4B5FB30087EB57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,12 +264,24 @@
 			files = (
 				BA7EDDA81D4B5FB30087EB57 /* ViewController.m in Sources */,
 				BA7EDDC81D4B61820087EB57 /* NSString+Accumulation.m in Sources */,
+				BAFA96021D689879004D01E8 /* LoginViewController.m in Sources */,
 				BA7EDDCB1D4B619A0087EB57 /* UIImage+Accumulation.m in Sources */,
+				BAFA96031D689879004D01E8 /* RegisterCodeViewController.m in Sources */,
 				BA7EDDA51D4B5FB30087EB57 /* AppDelegate.m in Sources */,
 				BA7EDDB81D4B600B0087EB57 /* README.md in Sources */,
 				BA7EDDA21D4B5FB30087EB57 /* main.m in Sources */,
+				BA5909511D523AD000AFD118 /* UserCenterViewController.m in Sources */,
+				BAFA96051D689879004D01E8 /* BaseViewController.m in Sources */,
+				BAFA96001D689879004D01E8 /* ForgetNewPwdViewController.m in Sources */,
+				BAFA96041D689879004D01E8 /* RegisterViewController.m in Sources */,
 				BA7EDDC21D4B61370087EB57 /* UIColor+Accumulation.m in Sources */,
+				BAFA96011D689879004D01E8 /* ForgetPwdViewController.m in Sources */,
+				BAFA960C1D689AE7004D01E8 /* Reachability.m in Sources */,
+				BAFA95FF1D689879004D01E8 /* ForgetCodeViewController.m in Sources */,
 				BA7EDDC51D4B61630087EB57 /* NSDate+Accumulation.m in Sources */,
+				BAFA96071D689879004D01E8 /* UIViewUtil.m in Sources */,
+				BAFA96061D689879004D01E8 /* HttpCommon.m in Sources */,
+				BAFA96081D689879004D01E8 /* ViewCtrJump.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

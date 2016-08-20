@@ -17,6 +17,15 @@
     return [content boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:attrs context:nil].size;
 }
 
+#pragma mark -- 获取不同字体颜色的字符串
++(NSMutableAttributedString *)differString:(NSString *)str target:(NSString *)targetStr color:(UIColor *)color font:(UIFont *)font{
+    NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc]initWithString:str];
+    NSRange range = [str rangeOfString:targetStr];
+    [attrStr addAttribute:NSFontAttributeName value:font range:range];
+    [attrStr addAttribute:NSForegroundColorAttributeName value:color range:range];
+    return attrStr;
+}
+
 #pragma mark -- 处理请求结果:解码，转nsdictionary
 +(NSDictionary *)handleHttpResult:(id)responseObject{
     NSData *doubi = responseObject;
@@ -220,5 +229,19 @@
         return [NSString stringWithFormat:@"%@***",[str substringWithRange:NSMakeRange(0, 1)]];
     }
 }
+
+#pragma mark -- 生成验证码，数字、字母组成
++(NSString *)createVerificationCode:(int)length{
+    NSString *string = @"123456789abcdefghjkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ";
+    NSMutableString *randomStr = [NSMutableString new];
+    for (int i=0; i<length; i++) {
+        int random = arc4random()%string.length;
+        [randomStr appendString:[string substringWithRange:NSMakeRange(random, 1)]];
+        [randomStr appendString:@" "];
+    }
+    
+    return randomStr;
+}
+
 
 @end

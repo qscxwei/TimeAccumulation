@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+#import "UserCenterViewController.h"
+#import "TimeAccumulation.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
